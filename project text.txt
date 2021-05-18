@@ -1,0 +1,12 @@
+
+//project parser jamilcse17.github
+                              by mahmud jamil///
+
+
+SET CLASSPATH=.;C:\Javalib\antlr-4.8-complete.jar;%CLASSPATH%
+
+    java -jar antlr-4.8-complete.jar project.g4
+
+    javac -cp .;antlr-4.8-complete.jar project*.java
+
+    java -cp .;antlr-4.8-complete.jar org.antlr.v4.gui.TestRig project root -gui project_input.txt
